@@ -1,0 +1,146 @@
+.line, .cards{
+    border-bottom: 1px solid rgba(161, 161, 161, 0.32);
+}
+.line{
+    display: flex;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.line i{
+    padding: 10px 5px 0 0 ;
+}
+.container{
+    margin: 50px;   
+}
+.items-info *{
+    font-size: 20px;
+}
+.items-info{
+    padding: 27px 0;
+}
+.item1, .all{
+    display: flex;
+    justify-content: space-between;
+
+}
+.first{
+    display: flex;
+}
+.arrow{
+    display: flex;
+    flex-direction: column;
+}
+.item1{
+    margin-top: 40px;
+}
+.box1and1{
+    margin: 15px 0;
+}
+.all{
+    padding: 15px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.559);
+    border-radius: 17px;
+    box-shadow: 2px 2px rgba(117, 116, 116, 0.244);
+}
+.knopka{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    box-shadow: none;
+    height: 12px;
+}
+.box1{
+    margin-left: 78px;
+}
+.box2{
+    border-radius: 3%;
+    margin-left: 40px;
+    padding: 30px 25px !important;
+    background-color: #5659bb;
+    color: white;
+}
+.card-detail{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.card-detail b{
+    padding: 10px;
+}
+.card-input{
+    background-color: #6e75cf;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    width: 180px;
+}
+.cards{
+    padding-bottom: 25px;
+}
+.total *{
+    display: flex;
+    justify-content: space-between;
+}
+.total{
+    padding-top: 10px;
+}
+.item-input{
+    background-color: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.308);
+    width: 50px;
+}
+.checkout *{
+    background-color: #4DE1C1;
+}
+.sum{
+    padding: 17px 20px 0 20px;
+    border-radius: 12px 0 0 12px;
+}
+.check-knopka{
+    border: none;
+    color: white;
+    padding: 17px 20px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 0 12px 12px 0;
+}
+.checki{
+    padding: 5px 15px;
+}
+.checkout{
+    background-color: #4DE1C1;
+    border-radius: 12px;
+}
+.card-type img:nth-child(4){
+    border-radius: 5px;
+    width: 80px;
+}
+.card-type {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 990px) {
+    .box1{
+        margin-left: 5px;
+    }
+    .box2{
+        border-radius: 3%;
+        margin-left: 3px;
+        padding: 30px 25px !important;
+        background-color: #5659bb;
+        color: white;
+    }
+    }
+
+
+/* @media (min-width: 992px) and (max-width: 1398){
+    .card-name .card-input{
+        background-color: #6e75cf;
+        border: none;
+        border-radius: 5px;
+        padding: 7px;
+        width: 140px !important;
+    }
+} */
